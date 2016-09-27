@@ -1,0 +1,32 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+title: Link-Rot
+email: info@linkrot.net
+description: "A weekly discussion about whats happening in life, technology and the way they intersect and interact. At the moment we're just testing the format and hoping to iron out issues in the coming weeks. We'd appreciate your feedback!"
+subtitle: 
+lang: en-us
+author: Tim Klapdor
+copyright: "&#x2117; &amp; &#xA9; 2015"
+baseurl: "/link-rot" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site
+twitter_username: timklapdor
+github_username:  timklapdor
+
+permalink: /:year/:title.html
+
+#Timezone
+timezone: Australia/Sydney
+
+
+# Podcast Feed Settings
+
+copyright: "&#x2117; &amp; &#xA9; 2015"
+
+# Build settings
+markdown: kramdown

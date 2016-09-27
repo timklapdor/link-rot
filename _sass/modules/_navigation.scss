@@ -1,0 +1,46 @@
+nav {
+  text-align: center;
+  margin-top: 0px; }
+
+nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none !important;
+  margin: 0px 0px;
+  padding: 0; }
+
+nav li {
+  flex-grow: 1;
+  min-width: 50%;
+  margin: 0px 0px;
+  border-right: 1px solid rgba(255, 255, 255, 0.5);
+  box-sizing: border-box;
+  background: #333333;
+  background: -moz-$dark-gradient;
+  background: -webkit-$dark-gradient;
+  background: $dark-gradient;
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#444', endColorstr='#333333',GradientType=0 ); }
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  display: block;
+  padding: .5em 0px; 
+  border-bottom: 6px solid transparent;
+}
+
+nav a:hover {
+  background-color: $secondary-color;
+  color: #fff; 
+  border-bottom: 6px solid $drop-shadow;
+}
+
+/* Larger than phablet (also point when grid becomes active) */
+@media (#{$bp-larger-than-phablet}) {
+  nav li {
+    flex-grow: 1;
+    min-width: 25%; }
+
+  nav a {
+    padding: 0.8em 0px; } }

@@ -1,0 +1,74 @@
+// Base Styles
+//––––––––––––––––––––––––––––––––––––––––––––––––––
+// NOTE
+// html is set to 62.5% so that all the REM measurements throughout Skeleton
+// are based on 10px sizing. So basically 1.5rem = 15px :)
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+  font-size: 1.8em; // currently ems cause chrome bug misinterpreting rems on body element
+  line-height: 1.6;
+  font-weight: 300;
+  font-family: $font-family;
+  color: $font-color;
+  overflow-x: hidden;
+}
+
+// Links
+//––––––––––––––––––––––––––––––––––––––––––––––––––
+
+a {
+    color: $link-color;
+    transition: all 0.4s ease;
+    text-decoration: none;
+}
+
+a:hover {
+    color: darken($link-color, 20%)
+}
+
+footer a {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+// Misc
+//––––––––––––––––––––––––––––––––––––––––––––––––––
+
+hr {
+  margin-top: 3rem;
+  margin-bottom: 3.5rem;
+  border-width: 0;
+  border-top: 1px solid $light-grey;
+}
+
+// Gradient Animation Settings
+//––––––––––––––––––––––––––––––––––––––––––––––––––
+
+.gradient {
+    background: $long-gradient;
+    background-size: 1600% 1600%;
+    -webkit-animation: LX-Background 120s linear alternate infinite;
+    -moz-animation: LX-Background 120s linear alternate infinite;
+    animation: LX-Background 120s linear alternate infinite;
+}    
+    
+@-webkit-keyframes LX-Background {
+    0%{background-position:51% 0%}
+    50%{background-position:50% 100%}
+    100%{background-position:51% 0%}
+}
+@-moz-keyframes LX-Background {
+    0%{background-position:51% 0%}
+    50%{background-position:50% 100%}
+    100%{background-position:51% 0%}
+}
+@keyframes LX-Background { 
+    0%{background-position:51% 0%}
+    50%{background-position:50% 100%}
+    100%{background-position:51% 0%}
+}    

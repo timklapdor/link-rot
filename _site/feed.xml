@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Link-Rot</title>
+    <description>A weekly discussion about whats happening in life, technology and the way they intersect and interact. At the moment we&#39;re just testing the format and hoping to iron out issues in the coming weeks. We&#39;d appreciate your feedback!</description>
+    <link>/link-rot/</link>
+    <atom:link href="/link-rot/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Wed, 28 Sep 2016 00:22:55 +1000</pubDate>
+    <lastBuildDate>Wed, 28 Sep 2016 00:22:55 +1000</lastBuildDate>
+    <generator>Jekyll v3.1.6</generator>
+    
+      <item>
+        <title>Will Netflix kill TV?</title>
+        <description>&lt;h3 id=&quot;will-netflix-kill-tv&quot;&gt;Will Netflix kill TV?&lt;/h3&gt;
+
+&lt;p&gt;The power of TV has been dwindling over recent years. It is no longer something that unites a nation, it’s not something we do as a collective anymore. Timeshifting, VCRs, DVRs and streaming make watching on demand possible and, by handing us the remote, perhaps a more desirable experience. Netflix’s arrival to Australian shores has had a massive effect on our viewing habits - and the experience of Netflix is fundamentally different to TV. It’s on demand, all available, ad free and cheap - so will it kill TV?&lt;/p&gt;
+
+&lt;h3 id=&quot;links&quot;&gt;Links:&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://youtu.be/hPD_RHVFlys&quot;&gt;Agro’s Cartoon Connection&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;voices&quot;&gt;Voices&lt;/h3&gt;
+
+&lt;p&gt;Tim Klapdor, Ben Atkinson and Adam Webster&lt;/p&gt;
+</description>
+        <pubDate>Mon, 26 Sep 2016 20:37:00 +1000</pubDate>
+        <link>/link-rot/2016/episode-3.html</link>
+        <guid isPermaLink="true">/link-rot/2016/episode-3.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>The Physicality of Stuff</title>
+        <description>&lt;h3 id=&quot;what-happens-when-we-lose-the-physicality-of-stuff&quot;&gt;What happens when we lose the physicality of “stuff”?&lt;/h3&gt;
+
+&lt;p&gt;More and more of our lives are becoming digitised - digital objects without a physical equivalent or presence. Shelves of CDs are replaced by Spotify subscriptions, DVDs by Netflix, Photo albums are relics of the past. So what kind of effect does this have on us - our identity and how we navigate our history?&lt;/p&gt;
+
+&lt;h3 id=&quot;voices&quot;&gt;Voices&lt;/h3&gt;
+
+&lt;p&gt;Tim Klapdor, Ben Atkinson and Adam Webster&lt;/p&gt;
+</description>
+        <pubDate>Fri, 23 Sep 2016 20:37:00 +1000</pubDate>
+        <link>/link-rot/2016/episode-2.html</link>
+        <guid isPermaLink="true">/link-rot/2016/episode-2.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Boring iPhones &amp; Digital Death</title>
+        <description>&lt;h3 id=&quot;just-how-boring-is-the-iphone&quot;&gt;Just how boring is the iPhone?&lt;/h3&gt;
+
+&lt;p&gt;We discuss just how boring is Apple? Why is there this expectation around innovation? Is the same expectation placed on Samsung, Microsoft, Google, Samsung? What’s the last bit of tech that actually made you excited? And should tech make you excited or are our lives just that sad?&lt;/p&gt;
+
+&lt;p&gt;Links:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://daringfireball.net/&quot;&gt;Daring Fireball&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;what-does-dying-look-like-today&quot;&gt;What does dying look like today?&lt;/h3&gt;
+
+&lt;p&gt;In todays digital age what exactly death means today. Should we build computers that forget? Could we set timelines for data to die or fade? What happens when an algorithm has access to our memories?&lt;/p&gt;
+
+&lt;p&gt;Links:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://motherboard.vice.com/read/how-digital-possessions-keep-us-from-letting-go-of-the-dead&quot;&gt;We Need to Make Digital Data That Dies Like Us&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://meyerweb.com/eric/thoughts/2014/12/24/inadvertent-algorithmic-cruelty/&quot;&gt;Inadvertent Algorithmic Cruelty&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.reddit.com/r/funny/comments/15rb1k/a_medicalert_bracelet_like_this_might_be_sensible/&quot;&gt;Please delete my browser history&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;voices&quot;&gt;Voices&lt;/h3&gt;
+
+&lt;p&gt;Tim Klapdor, Ben Atkinson and Adam Webster&lt;/p&gt;
+</description>
+        <pubDate>Thu, 15 Sep 2016 14:00:00 +1000</pubDate>
+        <link>/link-rot/2016/episode-1.html</link>
+        <guid isPermaLink="true">/link-rot/2016/episode-1.html</guid>
+        
+        
+      </item>
+    
+  </channel>
+</rss>

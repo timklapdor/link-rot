@@ -1,0 +1,116 @@
+h1 {
+    font-weight: 900;
+}
+
+h2 {
+    font-weight: 500;
+    border-bottom: 4px solid $primary-color;
+    margin-left: -.5em;
+    margin-right: -.5em;
+    padding: .4em 0 0 .5em;
+}
+
+h3 {
+    border-top: 1px solid $light-grey;
+    border-bottom: 1px solid $light-grey;
+    padding: .4em 0 .5em 1em;
+    background: $light-grey;
+    color: secondary-color;
+    margin-left: -1em;
+    text-transform: uppercase;
+    letter-spacing: .2em;
+    font-size: 1.2em;
+    border-radius: $global-radius; 
+}
+
+h4 {
+    font-style: italic;
+}
+
+h5 {
+    color: $light-grey;
+    background: $secondary-color;
+    margin-left: -1em;
+    padding: .4em 0 .5em 1em;
+    border-radius: $global-radius; 
+}
+
+h6 {
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+blockquote {
+    border-left: 4px solid $light-grey;
+    padding: 0 0 0 1em;
+    font-size: 1.7em;
+    line-height: 1.2em;
+    font-style: italic;
+}
+
+.label {
+    color: $secondary-color;
+    border-bottom: 1px solid $secondary-color;
+    margin-left: -1.5em;
+    padding: .4em 1em .5em 1.5em;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1em;
+    letter-spacing: .2em;
+}
+
+.two-part {
+    font-size: 1em;
+    letter-spacing: .2em;
+    font-weight: 500;
+    text-transform: uppercase;
+    padding: .4em 1em .5em 1.5em;
+    margin-left: -1.5em;
+    border: none;
+    background: $primary-color;
+    color: #fff;
+}
+
+.two-part strong {
+    color: #fff;
+    padding: .4em .5em .5em 1.5em;
+    margin-left: -1.5em;
+    background: $primary-color;
+    font-weight: 700;
+    }
+
+.two-part strong:after {
+    content: '\A';
+    white-space: pre;
+}
+
+// Larger than tablet
+@media (#{$bp-larger-than-tablet}) {
+    .two-part {
+    font-size: 1em;
+    letter-spacing: .2em;
+    font-weight: 500;
+    text-transform: uppercase;
+    padding: .4em 1em .5em 1.5em;
+    margin-left: -1.5em;
+    border: none;
+    background: none;
+    color: $dark-grey;
+    border: 1px solid $primary-color;
+    border-radius: $global-radius;    
+    }    
+    
+    .two-part strong:after {
+    content: "\00a0";
+   
+}    
+}
+
+
+.meta {
+    font-style: italic;
+}
+
+.header {
+    font-weight: 300;
+}

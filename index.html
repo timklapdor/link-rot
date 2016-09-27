@@ -1,0 +1,30 @@
+---
+layout: default
+---
+<p>Welcome to <strong>Link Rot</strong>, a weekly discussion about whats happening in life, technology and the way they intersect and interact. At the moment we're just testing the format and hoping to iron out issues in the coming weeks. We'd appreciate your feedback!</p>
+
+<h2 class="label">Latest Episodes</h2>
+
+<div class="card-grid">
+<!--     -->
+    
+    {% assign first_post = site.posts.first %}
+    <div class="cards first">
+        <h2>
+          <a class="post-link" href="{{ first_post.url | prepend: site.baseurl }}">{{ first_post.title }}</a>
+        </h2>
+        <p class="meta">{{ first_post.date | date: "%b %-d, %Y" }}</p>
+        <p>{{ first_post.excerpt }} </p>  
+        </div>
+    
+    {% for post in site.posts offset:1 %}
+        <div class="cards">
+        <h2>
+          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+        </h2>
+        <p class="meta">{{ post.date | date: "%b %-d, %Y" }}</p>
+        <p>{{ post.excerpt }} </p>  
+        </div>
+    {% endfor %}
+    
+</div>

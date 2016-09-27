@@ -1,0 +1,56 @@
+.wrapper {
+    display:flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    min-height: 50vh;
+    max-height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+header a {
+    text-decoration: none;
+    color: $header-color;
+    text-shadow: 0.1em 0.1em 1em $drop-shadow;
+}
+
+header a:hover {
+    color: $header-color-link;
+}
+
+.hidden {
+    visibility: hidden;
+}
+
+.logo {
+    padding: 0px;
+    height: 60vh;    
+}
+
+article {
+    padding-top: 2em !important;
+    flex-grow: 2;
+}
+
+footer {
+    background: $dark-gradient;
+    display: flex;
+}
+
+footer div {
+  flex-grow: 1;
+  min-width: 50%;
+}
+
+footer p {
+    color: $footer-color;
+    padding: 1em;
+    font-size: .7em;
+    text-align: right;
+    margin: 0;
+}

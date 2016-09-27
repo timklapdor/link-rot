@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xml:lang="en-us">
+	<channel>
+		<atom:link href="/podcast.rss" rel="self" type="application/rss+xml" />
+		<title>Link-Rot</title>
+		<description>A weekly discussion about whats happening in life, technology and the way they intersect and interact. At the moment we&#39;re just testing the format and hoping to iron out issues in the coming weeks. We&#39;d appreciate your feedback!</description>
+		<link></link>
+		<language>en-us</language>
+		<managingEditor>info@linkrot.net (Tim Klapdor)</managingEditor>
+		<webMaster>info@linkrot.net (Tim Klapdor)</webMaster>
+		<copyright>CC-BY 2016-09-28 00:22:55 +1000 Link-Rot</copyright>
+		<pubDate>Wed, 28 Sep 2016 00:22:55 +1000</pubDate>
+		<lastBuildDate>Wed, 28 Sep 2016 00:22:55 +1000</lastBuildDate>
+		<image>
+			<link></link>
+			<url>/images/itunes.png</url>
+			<title>Link-Rot</title>
+		</image>
+		<itunes:subtitle>A weekly discussion about whats happening in life, technology and the way they intersect and interact. At the moment we&#39;re just testing the format and hoping to iron out issues in the coming weeks. We&#39;d appreciate your feedback!</itunes:subtitle>
+		<itunes:author>Tim Klapdor</itunes:author>
+		<itunes:summary>A weekly discussion about whats happening in life, technology and the way they intersect and interact. At the moment we&#39;re just testing the format and hoping to iron out issues in the coming weeks. We&#39;d appreciate your feedback!</itunes:summary>
+		<itunes:keywords></itunes:keywords>
+		<itunes:owner>
+			<itunes:name>Tim Klapdor</itunes:name>
+			<itunes:email>info@linkrot.net</itunes:email>
+		</itunes:owner>
+		<itunes:image href="/images/itunes.png" />
+		<itunes:category text="Music" />
+		<itunes:category text="Technology" />
+		<itunes:category text="Society &amp; Culture" />
+		<itunes:explicit>yes</itunes:explicit>
+		
+			<item>
+				<title>Will Netflix kill TV?</title>
+				<link>/2016/episode-3.html</link>
+				<pubDate>Mon, 26 Sep 2016 20:37:00 +1000</pubDate>
+				<description>Episode and we ask the question - will Netflix kill TV?</description>
+				<guid isPermaLink="true">/2016/episode-3.html</guid>
+				<enclosure url="http:/audio/Episode-3.mp3" length="35944039" type="audio/mp3"/>
+				<itunes:author>Tim Klapdor</itunes:author>
+				<itunes:subtitle>Link-Rot: Will Netflix kill TV?</itunes:subtitle>
+				<itunes:summary>The power of TV has been dwindling over recent years. So will the experience of Netflix kill off TV?</itunes:summary>
+				<itunes:duration>47:25</itunes:duration>
+				<itunes:keywords></itunes:keywords>
+				<itunes:image href="/images/itunes.png" />
+				<itunes:explicit>yes</itunes:explicit>
+				<itunes:block>no</itunes:block>
+			</item>
+		
+			<item>
+				<title>The Physicality of Stuff</title>
+				<link>/2016/episode-2.html</link>
+				<pubDate>Fri, 23 Sep 2016 20:37:00 +1000</pubDate>
+				<description>Episode 2 and we asking what happens when physical stuff is replaced by the digital.</description>
+				<guid isPermaLink="true">/2016/episode-2.html</guid>
+				<enclosure url="http:/audio/Episode-2.mp3" length="32283580" type="audio/mp3"/>
+				<itunes:author>Tim Klapdor</itunes:author>
+				<itunes:subtitle>Link-Rot: The Physicality of Stuff</itunes:subtitle>
+				<itunes:summary>More and more of our lives are becoming digitised - digital objects without a physical equivalent or presence. What kind of effect does this have on us - our identity and how we navigate our history?</itunes:summary>
+				<itunes:duration>33:41</itunes:duration>
+				<itunes:keywords></itunes:keywords>
+				<itunes:image href="/images/itunes.png" />
+				<itunes:explicit>yes</itunes:explicit>
+				<itunes:block>no</itunes:block>
+			</item>
+		
+			<item>
+				<title>Boring iPhones &amp; Digital Death</title>
+				<link>/2016/episode-1.html</link>
+				<pubDate>Thu, 15 Sep 2016 14:00:00 +1000</pubDate>
+				<description>Our first episode and we tackle just how boring new technology is and what death looks like in the digital age.</description>
+				<guid isPermaLink="true">/2016/episode-1.html</guid>
+				<enclosure url="http:/audio/Episode-1.mp3" length="56051164" type="audio/mp3"/>
+				<itunes:author>Tim Klapdor</itunes:author>
+				<itunes:subtitle>Link-Rot: Boring iPhones & Digital Death</itunes:subtitle>
+				<itunes:summary>Join Tim, Ben and Adam for this, the first episode, as we discuss some of the things passing us by at the intersection of life and technology.</itunes:summary>
+				<itunes:duration>48:22</itunes:duration>
+				<itunes:keywords></itunes:keywords>
+				<itunes:image href="/images/itunes.png" />
+				<itunes:explicit>yes</itunes:explicit>
+				<itunes:block>no</itunes:block>
+			</item>
+		
+	</channel>
+</rss>
