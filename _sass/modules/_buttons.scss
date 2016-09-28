@@ -112,8 +112,8 @@ button.button-primary:hover {
   border-color: $secondary-color;
 }
 
-.button.button-secondary,
-button.button-secondary {
+.button.button-secondary:hover,
+button.button-secondary:hover {
   color: #fff;
   background-color: $primary-color;
   border-color: $primary-color;

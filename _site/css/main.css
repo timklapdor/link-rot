@@ -615,8 +615,8 @@ button.button-primary:hover {
   background-color: #3f5765;
   border-color: #3f5765; }
 
-.button.button-secondary,
-button.button-secondary {
+.button.button-secondary:hover,
+button.button-secondary:hover {
   color: #fff;
   background-color: #ff530d;
   border-color: #ff530d; }
