@@ -2,11 +2,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Link-Rot</title>
-    <description>A weekly discussion about whats happening in life, technology and the way they intersect and interact. At the moment we&#39;re just testing the format and hoping to iron out issues in the coming weeks. We&#39;d appreciate your feedback!</description>
+    <description>Link Rot is a show about the intersection of life and technology. Each week we dive into a subject that explores changes in digital technology and the way it affects our lives. We discuss how technology impacts our very humanity and have fun along the way!</description>
     <link>/link-rot/</link>
     <atom:link href="/link-rot/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 28 Sep 2016 00:22:55 +1000</pubDate>
-    <lastBuildDate>Wed, 28 Sep 2016 00:22:55 +1000</lastBuildDate>
+    <pubDate>Wed, 28 Sep 2016 14:26:27 +1000</pubDate>
+    <lastBuildDate>Wed, 28 Sep 2016 14:26:27 +1000</lastBuildDate>
     <generator>Jekyll v3.1.6</generator>
     
       <item>
@@ -20,10 +20,6 @@
 &lt;ul&gt;
   &lt;li&gt;&lt;a href=&quot;https://youtu.be/hPD_RHVFlys&quot;&gt;Agro’s Cartoon Connection&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-
-&lt;h3 id=&quot;voices&quot;&gt;Voices&lt;/h3&gt;
-
-&lt;p&gt;Tim Klapdor, Ben Atkinson and Adam Webster&lt;/p&gt;
 </description>
         <pubDate>Mon, 26 Sep 2016 20:37:00 +1000</pubDate>
         <link>/link-rot/2016/episode-3.html</link>
@@ -53,7 +49,7 @@
         <title>Boring iPhones &amp; Digital Death</title>
         <description>&lt;h3 id=&quot;just-how-boring-is-the-iphone&quot;&gt;Just how boring is the iPhone?&lt;/h3&gt;
 
-&lt;p&gt;We discuss just how boring is Apple? Why is there this expectation around innovation? Is the same expectation placed on Samsung, Microsoft, Google, Samsung? What’s the last bit of tech that actually made you excited? And should tech make you excited or are our lives just that sad?&lt;/p&gt;
+&lt;p&gt;We discuss just how boring is Apple? Why is there this expectation around innovation? Is the same expectation placed on Samsung, Microsoft and Google? What’s the last bit of tech that actually made you excited? And &lt;strong&gt;should&lt;/strong&gt; tech actually make you excited or are our lives just that sad?&lt;/p&gt;
 
 &lt;p&gt;Links:&lt;/p&gt;
 
@@ -63,7 +59,7 @@
 
 &lt;h3 id=&quot;what-does-dying-look-like-today&quot;&gt;What does dying look like today?&lt;/h3&gt;
 
-&lt;p&gt;In todays digital age what exactly death means today. Should we build computers that forget? Could we set timelines for data to die or fade? What happens when an algorithm has access to our memories?&lt;/p&gt;
+&lt;p&gt;In todays digital age what exactly does death look like today? Should we build computers that forget? Could we set timelines for data to die or fade? What happens when an algorithm has access to our memories? Is somones social media page a memorial or does it stop us from moving on?&lt;/p&gt;
 
 &lt;p&gt;Links:&lt;/p&gt;
 
@@ -72,10 +68,6 @@
   &lt;li&gt;&lt;a href=&quot;http://meyerweb.com/eric/thoughts/2014/12/24/inadvertent-algorithmic-cruelty/&quot;&gt;Inadvertent Algorithmic Cruelty&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://www.reddit.com/r/funny/comments/15rb1k/a_medicalert_bracelet_like_this_might_be_sensible/&quot;&gt;Please delete my browser history&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-
-&lt;h3 id=&quot;voices&quot;&gt;Voices&lt;/h3&gt;
-
-&lt;p&gt;Tim Klapdor, Ben Atkinson and Adam Webster&lt;/p&gt;
 </description>
         <pubDate>Thu, 15 Sep 2016 14:00:00 +1000</pubDate>
         <link>/link-rot/2016/episode-1.html</link>

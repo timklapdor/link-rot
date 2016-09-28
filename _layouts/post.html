@@ -3,18 +3,27 @@ layout: default
 ---
 <article class="post" >
 
-<h1 class="post-title" itemprop="name headline">{{ page.title }}</h1>
+    <h1 class="u-full-width" >{{ page.title }}</h1>
+       
+    <p class="post-meta"><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time> | A discussion with {{ page.voices }}</p>
     
-<p class="post-meta"><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time>{% if page.author %} • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>{% endif %}</p>
-    
-<audio controls>
-  <source src="{{ site.baseurl }}{{ page.file }}" type="audio/mp3">
-</audio>
-    
-  <div class="post-content" itemprop="articleBody">
+    <div class="container center-content">
+    <div class="seven columns">
+    <audio controls>
+        <source src="{{ site.baseurl }}{{ page.file }}" type="audio/mp3">
+    </audio>
+    </div>
+    <div class="four columns center-content">
+    <a href="{{ site.baseurl }}{{ page.file }}" class="button u-full-height" download="{{ page.title }}">Download Now</a>
+    </div>
+        </div>
+<div>
     {{ content }}
-  </div>
+    
+    <p><em>Keywords - {{ page.keywords }}</em></p>
+</div>
 
+    
 </article>
 
 <script src="{{ site.baseurl }}/js/plyr.js"></script>

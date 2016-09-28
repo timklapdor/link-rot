@@ -8,10 +8,10 @@
 # Site settings
 title: Link-Rot
 email: info@linkrot.net
-description: "A weekly discussion about whats happening in life, technology and the way they intersect and interact. At the moment we're just testing the format and hoping to iron out issues in the coming weeks. We'd appreciate your feedback!"
-subtitle: 
+description: "Link Rot is a show about the intersection of life and technology. Each week we dive into a subject that explores changes in digital technology and the way it affects our lives. We discuss how technology impacts our very humanity and have fun along the way!"
+subtitle: "A discussion about the intersection of life & technology."
 lang: en-us
-author: Tim Klapdor
+author: Tim Klapdor, Adam Webster & Ben Atkinson
 copyright: "&#x2117; &amp; &#xA9; 2015"
 baseurl: "/link-rot" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site
@@ -23,10 +23,8 @@ permalink: /:year/:title.html
 #Timezone
 timezone: Australia/Sydney
 
-
-# Podcast Feed Settings
-
-copyright: "&#x2117; &amp; &#xA9; 2015"
+#Setup for Pages
+include: ['_pages']
 
 # Build settings
 markdown: kramdown

@@ -87,6 +87,14 @@ button.button-primary {
   border-color: $primary-color;
 }
 
+
+.button.button-secondary,
+button.button-secondary {
+  color: #fff;
+  background-color: $secondary-color;
+  border-color: $secondary-color;
+}
+
 input {
   &[type="submit"].button-primary,
   &[type="reset"].button-primary,
@@ -144,4 +152,9 @@ input {
     box-shadow: none;
     box-sizing: border-box;
   }
+}
+
+.large {
+    padding-left: 5em !important;
+    padding-right: 5em !important;
 }

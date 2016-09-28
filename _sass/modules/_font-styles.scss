@@ -4,7 +4,7 @@ h1 {
 
 h2 {
     font-weight: 500;
-    border-bottom: 4px solid $primary-color;
+ //   border-bottom: 4px solid $primary-color;
     margin-left: -.5em;
     margin-right: -.5em;
     padding: .4em 0 0 .5em;
@@ -51,12 +51,18 @@ blockquote {
 .label {
     color: $secondary-color;
     border-bottom: 1px solid $secondary-color;
-    margin-left: -1.5em;
+    margin-left: -1em;
+    margin-right: -1em;
     padding: .4em 1em .5em 1.5em;
     text-transform: uppercase;
     font-weight: 700;
     font-size: 1em;
     letter-spacing: .2em;
+}
+
+.reversed {
+    color: #fff;
+    border-bottom: 1px solid $primary-color;
 }
 
 .two-part {

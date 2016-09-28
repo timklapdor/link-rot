@@ -20,7 +20,7 @@
     background: rgba(240,240,240,1);
     padding: 1em;
     margin: 0.5em;
-    box-shadow: 0px 1em 1em 0px rgba(0,0,0,0.2); 
+    box-shadow: 0px 1em 1em 0px rgba(0,0,0,0.1); 
 }
 
 .cards:first-of-type {
@@ -36,7 +36,7 @@
 .first {
     max-width: 100%;
     width: 100%;
-    border-left: 2em solid $primary-color;
+    border-bottom: 1em solid $primary-color;
     background: $secondary-color;
     color: #fff;
 }
@@ -52,7 +52,6 @@
 .first:hover {
     max-width: 100%;
     width: 100%;
-    border-left: 2em solid $primary-color;
     background: darken($secondary-color, 20%) ;
     color: #fff;
 }
