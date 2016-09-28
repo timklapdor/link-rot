@@ -763,13 +763,16 @@ ul.special-list li:before {
 .first a {
   color: #fff !important; }
 
+.first a:hover {
+  color: #ff530d !important; }
+
 .first h2 {
   margin-right: -.4em; }
 
 .first:hover {
   max-width: 100%;
   width: 100%;
-  background: #182126;
+  background: #2b3c46;
   color: #fff; }
 
 code {

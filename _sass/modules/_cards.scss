@@ -45,6 +45,10 @@
     color: #fff !important;
 }
 
+.first a:hover {
+    color: $primary-color !important;
+}
+
 .first h2 {
     margin-right: -.4em;
 }
@@ -52,6 +56,6 @@
 .first:hover {
     max-width: 100%;
     width: 100%;
-    background: darken($secondary-color, 20%) ;
+    background: darken($secondary-color, 10%) ;
     color: #fff;
 }
