@@ -10,7 +10,7 @@
 		<title>{{ site.title }}</title>
 		<link>{{ site.url }}</link>
 		<language>{{ site.lang }}</language>
-        <copyright>&#x2117; &amp; &#xA9; {{ site.time | date: "%Y" }} {{ site.title }}</copyright>
+        <copyright>&#xA9; {{ site.time | date: "%Y" }} {{ site.title }}</copyright>
 		<itunes:subtitle>{{ site.subtitle | xml_escape }}</itunes:subtitle>
         <itunes:author>{{ site.author }}</itunes:author>
 		<itunes:summary>{{ site.description | xml_escape }}</itunes:summary>
@@ -27,21 +27,21 @@
         <itunes:explicit>no</itunes:explicit>
 		
 {% for post in site.posts %}
-			<item>
-				<title>{{ post.title | xml_escape }}</title>
-                <itunes:author>{{ site.author }}</itunes:author>
-                <itunes:subtitle>{{ site.title }}: {{ post.title }}</itunes:subtitle>
-				<itunes:summary>{{ post.summary | xml_escape }}</itunes:summary>
-				<itunes:image href="{{ site.url }}/images/itunes.png" />
-				<enclosure url="http:{{ post.file }}" length="{{ post.length }}" type="audio/mp3"/>
-				<guid isPermaLink="true">{{ site.url }}{{ post.url }}</guid>
-				<pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
-				<itunes:duration>{{ post.duration }}</itunes:duration>
-				<itunes:explicit>{{ post.explicit }}</itunes:explicit>
-				<description>{{ post.excerpt | xml_escape }}</description>
-				<itunes:keywords>{{ post.keywords }}</itunes:keywords>
-				<itunes:block>{{ post.block }}</itunes:block>
-			</item>
+        <item>
+            <title>{{ post.title | xml_escape }}</title>
+            <itunes:author>{{ site.author }}</itunes:author>
+            <itunes:subtitle>{{ site.title }}: {{ post.title }}</itunes:subtitle>
+            <itunes:summary>{{ post.summary | xml_escape }}</itunes:summary>
+            <itunes:image href="{{ site.url }}/images/itunes.png" />
+            <enclosure url="http:{{ post.file }}" length="{{ post.length }}" type="audio/mp3"/>
+            <guid isPermaLink="true">{{ site.url }}{{ post.url }}</guid>
+            <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
+            <itunes:duration>{{ post.duration }}</itunes:duration>
+            <itunes:explicit>{{ post.explicit }}</itunes:explicit>
+            <description>{{ post.excerpt | xml_escape }}</description>
+            <itunes:keywords>{{ post.keywords }}</itunes:keywords>
+            <itunes:block>{{ post.block }}</itunes:block>
+		</item>
 {% endfor %}
 	</channel>
 </rss>
