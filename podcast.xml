@@ -1,7 +1,6 @@
 ---
 
 ---
-
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xml:lang="{{ site.lang }}">
 
@@ -30,7 +29,7 @@
         <item>
             <title>{{ post.title | xml_escape }}</title>
             <itunes:author>{{ site.author }}</itunes:author>
-            <itunes:subtitle>{{ site.title }}: {{ post.title }}</itunes:subtitle>
+            <itunes:subtitle>{{ site.title | xml_escape }}: {{ post.title | xml_escape }}</itunes:subtitle>
             <itunes:summary>{{ post.summary | xml_escape }}</itunes:summary>
             <itunes:image href="{{ site.url }}/images/itunes.png" />
             <enclosure url="http:{{ post.file }}" length="{{ post.length }}" type="audio/mp3"/>
