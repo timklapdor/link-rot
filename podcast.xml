@@ -7,7 +7,7 @@
     <channel>
 		<atom:link href="{{ site.url }}/podcast.rss" rel="self" type="application/rss+xml" />
 		<title>{{ site.title }}</title>
-		<link>{{ site.url }}</link>
+		<link>{{ site.url }}{{ site.baseurl }}</link>
 		<language>{{ site.lang }}</language>
         <copyright>&#xA9; {{ site.time | date: "%Y" }} {{ site.title }}</copyright>
 		<itunes:subtitle>{{ site.subtitle | xml_escape }}</itunes:subtitle>
@@ -19,7 +19,7 @@
 			<itunes:name>{{ site.author }}</itunes:name>
 			<itunes:email>{{ site.email }}</itunes:email>
 		</itunes:owner>
-        <itunes:image href="{{ site.url }}/images/itunes.png" />
+        <itunes:image href="{{ site.url }}{{ site.baseurl }}/images/itunes.png" />
         <itunes:category text="Music" />
 		<itunes:category text="Technology" />
 		<itunes:category text="Society &amp; Culture" />
@@ -32,8 +32,8 @@
             <itunes:subtitle>{{ site.title | xml_escape }}: {{ post.title | xml_escape }}</itunes:subtitle>
             <itunes:summary>{{ post.summary | xml_escape }}</itunes:summary>
             <itunes:image href="{{ site.url }}/images/itunes.png" />
-            <enclosure url="http:{{ post.file }}" length="{{ post.length }}" type="audio/mp3"/>
-            <guid isPermaLink="true">{{ site.url }}{{ post.url }}</guid>
+            <enclosure url="{{ site.url }}{{ site.baseurl }}{{ post.file }}" length="{{ post.length }}" type="audio/mp3"/>
+            <guid isPermaLink="true">{{ site.url }}{{ site.baseurl }}{{ post.url }}</guid>
             <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
             <itunes:duration>{{ post.duration }}</itunes:duration>
             <itunes:explicit>{{ post.explicit }}</itunes:explicit>
