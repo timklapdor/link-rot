@@ -615,6 +615,12 @@ button.button-primary:hover {
   background-color: #3f5765;
   border-color: #3f5765; }
 
+.button.button-secondary,
+button.button-secondary {
+  color: #fff;
+  background-color: #ff530d;
+  border-color: #ff530d; }
+
 input[type="submit"].button-primary:hover, input[type="reset"].button-primary:hover, input[type="button"].button-primary:hover {
   color: #fff;
   background-color: #3f5765;
