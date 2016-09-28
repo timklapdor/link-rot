@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Link-Rot</title>
+    <title>Link Rot</title>
     <description>Link Rot is a show about the intersection of life and technology. Each week we dive into a subject that explores changes in digital technology and the way it affects our lives. We discuss how technology impacts our very humanity and have fun along the way!</description>
-    <link>/link-rot/</link>
-    <atom:link href="/link-rot/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 28 Sep 2016 18:05:16 +1000</pubDate>
-    <lastBuildDate>Wed, 28 Sep 2016 18:05:16 +1000</lastBuildDate>
+    <link>https://timklapdor.github.io/link-rot/</link>
+    <atom:link href="https://timklapdor.github.io/link-rot/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Wed, 28 Sep 2016 18:08:26 +1000</pubDate>
+    <lastBuildDate>Wed, 28 Sep 2016 18:08:26 +1000</lastBuildDate>
     <generator>Jekyll v3.1.6</generator>
     
       <item>
@@ -22,8 +22,8 @@
 &lt;/ul&gt;
 </description>
         <pubDate>Mon, 26 Sep 2016 20:37:00 +1000</pubDate>
-        <link>/link-rot/2016/episode-3.html</link>
-        <guid isPermaLink="true">/link-rot/2016/episode-3.html</guid>
+        <link>https://timklapdor.github.io/link-rot/2016/episode-3.html</link>
+        <guid isPermaLink="true">https://timklapdor.github.io/link-rot/2016/episode-3.html</guid>
         
         
       </item>
@@ -39,8 +39,8 @@
 &lt;p&gt;Tim Klapdor, Ben Atkinson and Adam Webster&lt;/p&gt;
 </description>
         <pubDate>Fri, 23 Sep 2016 20:37:00 +1000</pubDate>
-        <link>/link-rot/2016/episode-2.html</link>
-        <guid isPermaLink="true">/link-rot/2016/episode-2.html</guid>
+        <link>https://timklapdor.github.io/link-rot/2016/episode-2.html</link>
+        <guid isPermaLink="true">https://timklapdor.github.io/link-rot/2016/episode-2.html</guid>
         
         
       </item>
@@ -70,8 +70,8 @@
 &lt;/ul&gt;
 </description>
         <pubDate>Thu, 15 Sep 2016 14:00:00 +1000</pubDate>
-        <link>/link-rot/2016/episode-1.html</link>
-        <guid isPermaLink="true">/link-rot/2016/episode-1.html</guid>
+        <link>https://timklapdor.github.io/link-rot/2016/episode-1.html</link>
+        <guid isPermaLink="true">https://timklapdor.github.io/link-rot/2016/episode-1.html</guid>
         
         
       </item>

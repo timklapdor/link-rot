@@ -2,11 +2,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xml:lang="en-us">
 
     <channel>
-		<atom:link href="/podcast.rss" rel="self" type="application/rss+xml" />
-		<title>Link-Rot</title>
-		<link></link>
+		<atom:link href="https://timklapdor.github.io/podcast.rss" rel="self" type="application/rss+xml" />
+		<title>Link Rot</title>
+		<link>https://timklapdor.github.io</link>
 		<language>en-us</language>
-        <copyright>&#xA9; 2016 Link-Rot</copyright>
+        <copyright>&#xA9; 2016 Link Rot</copyright>
 		<itunes:subtitle>A discussion about the intersection of life &amp; technology.</itunes:subtitle>
         <itunes:author>Tim Klapdor, Adam Webster &amp; Ben Atkinson</itunes:author>
 		<itunes:summary>Link Rot is a show about the intersection of life and technology. Each week we dive into a subject that explores changes in digital technology and the way it affects our lives. We discuss how technology impacts our very humanity and have fun along the way!</itunes:summary>
@@ -16,7 +16,7 @@
 			<itunes:name>Tim Klapdor, Adam Webster &amp; Ben Atkinson</itunes:name>
 			<itunes:email>info@linkrot.net</itunes:email>
 		</itunes:owner>
-        <itunes:image href="/images/itunes.png" />
+        <itunes:image href="https://timklapdor.github.io/images/itunes.png" />
         <itunes:category text="Music" />
 		<itunes:category text="Technology" />
 		<itunes:category text="Society &amp; Culture" />
@@ -26,11 +26,11 @@
         <item>
             <title>Will Netflix kill TV?</title>
             <itunes:author>Tim Klapdor, Adam Webster &amp; Ben Atkinson</itunes:author>
-            <itunes:subtitle>Link-Rot: Will Netflix kill TV?</itunes:subtitle>
+            <itunes:subtitle>Link Rot: Will Netflix kill TV?</itunes:subtitle>
             <itunes:summary>The power of TV has been dwindling over recent years. So will the experience of Netflix kill off TV?</itunes:summary>
-            <itunes:image href="/images/itunes.png" />
+            <itunes:image href="https://timklapdor.github.io/images/itunes.png" />
             <enclosure url="http:/audio/Episode-3.mp3" length="35944039" type="audio/mp3"/>
-            <guid isPermaLink="true">/2016/episode-3.html</guid>
+            <guid isPermaLink="true">https://timklapdor.github.io/2016/episode-3.html</guid>
             <pubDate>Mon, 26 Sep 2016 20:37:00 +1000</pubDate>
             <itunes:duration>47:25</itunes:duration>
             <itunes:explicit>yes</itunes:explicit>
@@ -42,11 +42,11 @@
         <item>
             <title>The Physicality of Stuff</title>
             <itunes:author>Tim Klapdor, Adam Webster &amp; Ben Atkinson</itunes:author>
-            <itunes:subtitle>Link-Rot: The Physicality of Stuff</itunes:subtitle>
+            <itunes:subtitle>Link Rot: The Physicality of Stuff</itunes:subtitle>
             <itunes:summary>More and more of our lives are becoming digitised - digital objects without a physical equivalent or presence. What kind of effect does this have on us - our identity and how we navigate our history?</itunes:summary>
-            <itunes:image href="/images/itunes.png" />
+            <itunes:image href="https://timklapdor.github.io/images/itunes.png" />
             <enclosure url="http:/audio/Episode-2.mp3" length="32283580" type="audio/mp3"/>
-            <guid isPermaLink="true">/2016/episode-2.html</guid>
+            <guid isPermaLink="true">https://timklapdor.github.io/2016/episode-2.html</guid>
             <pubDate>Fri, 23 Sep 2016 20:37:00 +1000</pubDate>
             <itunes:duration>33:41</itunes:duration>
             <itunes:explicit>yes</itunes:explicit>
@@ -58,11 +58,11 @@
         <item>
             <title>Boring iPhones &amp; Digital Death</title>
             <itunes:author>Tim Klapdor, Adam Webster &amp; Ben Atkinson</itunes:author>
-            <itunes:subtitle>Link-Rot: Boring iPhones & Digital Death</itunes:subtitle>
+            <itunes:subtitle>Link Rot: Boring iPhones & Digital Death</itunes:subtitle>
             <itunes:summary>Join Tim, Ben and Adam for this, the first episode, as we discuss some of the things passing us by at the intersection of life and technology.</itunes:summary>
-            <itunes:image href="/images/itunes.png" />
+            <itunes:image href="https://timklapdor.github.io/images/itunes.png" />
             <enclosure url="http:/audio/Episode-1.mp3" length="56051164" type="audio/mp3"/>
-            <guid isPermaLink="true">/2016/episode-1.html</guid>
+            <guid isPermaLink="true">https://timklapdor.github.io/2016/episode-1.html</guid>
             <pubDate>Thu, 15 Sep 2016 14:00:00 +1000</pubDate>
             <itunes:duration>48:22</itunes:duration>
             <itunes:explicit>no</itunes:explicit>
