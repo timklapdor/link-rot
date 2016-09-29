@@ -1563,3 +1563,6 @@ blockquote {
   height: 0;
   top: 50%;
   transform: translateY(-50%); }
+
+.plyr button {
+  margin-bottom: 0px; }

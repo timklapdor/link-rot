@@ -17,9 +17,11 @@
 			<itunes:email>info@linkrot.net</itunes:email>
 		</itunes:owner>
         <itunes:image href="https://timklapdor.github.io/link-rot/images/itunes.png" />
-        <itunes:category text="Music" />
 		<itunes:category text="Technology" />
 		<itunes:category text="Society &amp; Culture" />
+        <itunes:category text="Education">
+            <itunes:category text="Educational Technology" />
+        </itunes:category> 
         <itunes:explicit>no</itunes:explicit>
 		
 
