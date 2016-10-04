@@ -26,12 +26,28 @@
 		
 
         <item>
+            <title>Hiding Behind Technology</title>
+            <itunes:author>Tim Klapdor, Adam Webster &amp; Ben Atkinson</itunes:author>
+            <itunes:subtitle>Link Rot: Hiding Behind Technology</itunes:subtitle>
+            <itunes:summary>Digital technology represents an abstraction from the real world. It technical and programatic nature allow it to hide and conceal what&#39;s really happening in our world. </itunes:summary>
+            <itunes:image href="https://timklapdor.github.io/images/itunes.png" />
+            <enclosure url="http://link-rot.s3.amazonaws.com/Episode-4.mp3" length="33306609 " type="audio/mp3"/>
+            <guid isPermaLink="true">https://timklapdor.github.io/link-rot/2016/episode-4.html</guid>
+            <pubDate>Tue, 04 Oct 2016 15:40:00 +1100</pubDate>
+            <itunes:duration>34:37</itunes:duration>
+            <itunes:explicit>yes</itunes:explicit>
+            <description>Episode 4 and we discuss what does digital technology hide?</description>
+            <itunes:keywords>technology, VR, refugees, cloud, labour, uber, facebook, </itunes:keywords>
+            <itunes:block>no</itunes:block>
+		</item>
+
+        <item>
             <title>Will Netflix kill TV?</title>
             <itunes:author>Tim Klapdor, Adam Webster &amp; Ben Atkinson</itunes:author>
             <itunes:subtitle>Link Rot: Will Netflix kill TV?</itunes:subtitle>
             <itunes:summary>The power of TV has been dwindling over recent years. So will the experience of Netflix kill off TV?</itunes:summary>
             <itunes:image href="https://timklapdor.github.io/images/itunes.png" />
-            <enclosure url="https://timklapdor.github.io/link-rot/audio/Episode-3.mp3" length="35944039" type="audio/mp3"/>
+            <enclosure url="http://link-rot.s3.amazonaws.com/Episode-3.mp3" length="35944039" type="audio/mp3"/>
             <guid isPermaLink="true">https://timklapdor.github.io/link-rot/2016/episode-3.html</guid>
             <pubDate>Mon, 26 Sep 2016 20:37:00 +1000</pubDate>
             <itunes:duration>37:25</itunes:duration>
@@ -47,7 +63,7 @@
             <itunes:subtitle>Link Rot: The Physicality of Stuff</itunes:subtitle>
             <itunes:summary>More and more of our lives are becoming digitised - digital objects without a physical equivalent or presence. What kind of effect does this have on us - our identity and how we navigate our history?</itunes:summary>
             <itunes:image href="https://timklapdor.github.io/images/itunes.png" />
-            <enclosure url="https://timklapdor.github.io/link-rot/audio/Episode-2.mp3" length="32283580" type="audio/mp3"/>
+            <enclosure url="http://link-rot.s3.amazonaws.com/Episode-2.mp3" length="32283580" type="audio/mp3"/>
             <guid isPermaLink="true">https://timklapdor.github.io/link-rot/2016/episode-2.html</guid>
             <pubDate>Fri, 23 Sep 2016 20:37:00 +1000</pubDate>
             <itunes:duration>33:41</itunes:duration>
@@ -63,7 +79,7 @@
             <itunes:subtitle>Link Rot: Boring iPhones &amp; Digital Death</itunes:subtitle>
             <itunes:summary>Join Tim, Ben and Adam for this, the first episode, as we discuss some of the things passing us by at the intersection of life and technology.</itunes:summary>
             <itunes:image href="https://timklapdor.github.io/images/itunes.png" />
-            <enclosure url="https://timklapdor.github.io/link-rot/audio/Episode-1.mp3" length="56051164" type="audio/mp3"/>
+            <enclosure url="http://link-rot.s3.amazonaws.com/Episode-1.mp3" length="56051164" type="audio/mp3"/>
             <guid isPermaLink="true">https://timklapdor.github.io/link-rot/2016/episode-1.html</guid>
             <pubDate>Thu, 15 Sep 2016 14:00:00 +1000</pubDate>
             <itunes:duration>48:22</itunes:duration>

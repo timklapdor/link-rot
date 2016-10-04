@@ -700,14 +700,14 @@ label > .label-body {
   font-weight: normal; }
 
 ul {
-  list-style: disc inside;
-  margin-left: 2em; }
+  list-style: disc outside;
+  margin-left: 2rem; }
 
 ol {
-  list-style: decimal inside;
-  padding-left: 0;
+  list-style: decimal outside;
+  padding-left: 0em;
   margin-top: 0;
-  margin-left: 2em; }
+  margin-left: 2rem; }
 
 ul {
   padding-left: 0;
@@ -724,7 +724,7 @@ li {
   margin-bottom: 1rem; }
 
 ul.special-list {
-  list-style: none inside;
+  list-style: none outside;
   text-indent: -1em;
   padding-left: 1em; }
 
