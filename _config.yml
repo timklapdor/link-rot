@@ -14,7 +14,7 @@ lang: en-us
 author: Tim Klapdor, Adam Webster &amp; Ben Atkinson
 copyright: "&#xA9; 2015"
 baseurl: "/link-rot" # the subpath of your site, e.g. /blog
-url: "https://timklapdor.github.io" # the base hostname & protocol for your site
+url: "http://linkrot.net" # the base hostname & protocol for your site
 twitter_username: timklapdor
 github_username:  timklapdor
 
