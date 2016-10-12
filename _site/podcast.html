@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Podcasting With Jekyll</title>
+  <meta name="description" content="Link Rot is a discussion held at the intersection of life and technology. Each week we dive into a subject that explores the changes going on in digital technology and the way it affects our lives. We discuss how technology impacts our very humanity and aim to have some fun along the way!">
+
+  <link rel="stylesheet" href="/css/main.css">
+  <link rel="canonical" href="http://linkrot.net/podcast">
+  <link rel="alternate" type="application/rss+xml" title="Link Rot" href="http://linkrot.net/podcast.xml">
+    
+  <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
+  
+  <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
+    <link rel="icon" type="image/png" href="/images/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="/images/favicon-16x16.png" sizes="16x16">
+    <link rel="manifest" href="/images/manifest.json">
+    <link rel="mask-icon" href="/images/safari-pinned-tab.svg" color="#5bbad5">
+    <link rel="shortcut icon" href="/images/favicon.ico">
+    <meta name="msapplication-config" content="/images/browserconfig.xml">
+    <meta name="theme-color" content="#323232">  
+    
+</head>
+
+
+<body>
+    <div class="wrapper">
+      <header class="gradient">
+        <div class="logo"><a href="/index.html"><img src="/images/LinkRot-logo-rev-sq.png" height="100%"><h1 class="hidden">Link Rot</h1></a></div>
+</header>
+
+
+      <nav>
+    <ul>
+        <li><a href="/about.html">About</a></li>
+        <li><a href="/podcast.xml">Subscribe</a></li>
+    </ul> 
+</nav>
+
+        <article class="container"> 
+        <article class="post">
+
+    <div class="center-content">
+    <h1 class="post-title">Podcasting With Jekyll</h1>
+    </div>
+    <div class="container extra-padding">
+        <p>This site is built using the static site generator <a href="https://jekyllrb.com/">Jekyll</a>, the audio files live on <a href="https://aws.amazon.com/s3/">Amazon S3</a> and (for the time being) the site itself is hosted on <a href="https://pages.github.com/">GitHub pages</a>.</p>
+
+<h3 id="why">Why?</h3>
+
+<p>The simple answer is that podcasting relies on a pretty simple technology - RSS. RSS often gets generated for a website almost as a by-product of adding content, this allows people to “subscribe” to your website and be notified or fed updates. Jekyll generates RSS straight out of the box and every podcast needs a website so we thought - why not kill two birds with one stone?</p>
+
+<h3 id="how">How?</h3>
+
+<p>After a bit of a search we stumbled across <a href="http://www.podcastgenerator.net/">Podcast Generator</a> which seemed to be a useful tool and close to what we needed. Doug and Dai over at <a href="http://tidepodcast.org/">TIDE podcast</a> use it and after having played with the setup - it’s quick and easy. There was some concern about placing our audio files up on our webserver though, audio files can be quite large which can impact on traffic allowances. Tim asked around the <a href="https://community.reclaimhosting.com/t/podcasting-with-reclaim/">Reclaim Community</a> and decided to have a go at Jekyll. After an evening of fiddling around the site was up and running. It was generating an RSS feed that complied with iTunes standards and was looking pretty nice too. Tim added a HTML5 player (<a href="https://github.com/Selz/plyr">Plyr</a>) to the post page for each podcast so that people could sample and listen without having to subscribe or download anything. Next step was to move the files into an Amazon S3 bucket, which <a href="https://growthedream.com/host-podcast-files-amazon-s3/">this tutorial</a> covers nicely. The final step was getting a domain name and pointing it at GitHub.</p>
+
+<h3 id="our-process">Our Process</h3>
+
+<p><strong>1.</strong> Record the conversation</p>
+
+<p><strong>2.</strong> Edit and export podcast</p>
+
+<p><strong>3.</strong> Edit metadata</p>
+
+<p><strong>4.</strong> FTP file to Amazon S3 - copy link</p>
+
+<p><strong>5.</strong> Create a new post in Markdown and add in the relevant front matter to the YAML section</p>
+
+<div class="language-yaml highlighter-rouge"><pre class="highlight"><code><span class="s">layout</span><span class="pi">:</span> <span class="s">post</span>
+<span class="s">title</span><span class="pi">:</span> <span class="s2">"</span><span class="s">Title</span><span class="nv"> </span><span class="s">Goes</span><span class="nv"> </span><span class="s">Here"</span>
+<span class="s">date</span><span class="pi">:</span> <span class="s">Publishing date and time</span>
+<span class="s">file</span><span class="pi">:</span> <span class="s">link to file in S3</span>
+<span class="s">excerpt</span><span class="pi">:</span> <span class="s2">"</span><span class="s">Quick</span><span class="nv"> </span><span class="s">exerpt</span><span class="nv"> </span><span class="s">of</span><span class="nv"> </span><span class="s">episode"</span>
+<span class="s">summary</span><span class="pi">:</span> <span class="s2">"</span><span class="s">Longer</span><span class="nv"> </span><span class="s">information"</span>
+<span class="s">duration</span><span class="pi">:</span> <span class="s2">"</span><span class="s">how</span><span class="nv"> </span><span class="s">long</span><span class="nv"> </span><span class="s">in</span><span class="nv"> </span><span class="s">minutes</span><span class="nv"> </span><span class="s">and</span><span class="nv"> </span><span class="s">seconds"</span> 
+<span class="s">length</span><span class="pi">:</span> <span class="s2">"</span><span class="s">in</span><span class="nv"> </span><span class="s">seconds"</span>
+<span class="s">explicit</span><span class="pi">:</span> <span class="s2">"</span><span class="s">do</span><span class="nv"> </span><span class="s">we</span><span class="nv"> </span><span class="s">swear"</span> 
+<span class="s">keywords</span><span class="pi">:</span> <span class="s2">"</span><span class="s">keyword</span><span class="nv"> </span><span class="s">tags"</span>
+<span class="s">block</span><span class="pi">:</span> <span class="s2">"</span><span class="s">hold</span><span class="nv"> </span><span class="s">back</span><span class="nv"> </span><span class="s">publishing</span><span class="nv"> </span><span class="s">it"</span> 
+<span class="s">voices</span><span class="pi">:</span> <span class="s2">"</span><span class="s">who</span><span class="nv"> </span><span class="s">did</span><span class="nv"> </span><span class="s">the</span><span class="nv"> </span><span class="s">talking"</span>
+</code></pre>
+</div>
+
+<p><strong>6.</strong> Add links and show notes to the content section.</p>
+
+<p><strong>7.</strong> Once we’re complete Commit to GitHub</p>
+
+<p><strong>8.</strong> Site and RSS is updated and the new episode is pushed out</p>
+
+<h3 id="can-i-haz">Can I haz?</h3>
+
+<p>The beauty of this set up is that it’s simple - and you can access <a href="https://github.com/timklapdor/link-rot">all the source files over on GitHub</a>. The RSS file pulls information from the config.yml file which has most of the information you need to publish on iTunes. The episode information and file for Plyr are included the Post layout and pulled in from the front matter listed above. All styles can be configured using some basic CSS.</p>
+
+<p>At the moment you’ll need to fork our code to make your own copy - but we’ll make a boilerplate available soon. If this sounds cool and you want to get in touch with us you can via <a href="mailto:linkrot.podcast@gmail.com?subject=I found your website and wanted to say hi!">email</a> or on <a href="http://twitter.com/linkrotpodcast">twitter</a>!</p>
+
+<p>Cheers!</p>
+
+    </div>
+
+</article>
+
+        </article>   
+
+      <footer>
+
+<div class="container">
+    <p>Subscribe <a href="/podcast.xml">via RSS</a> | Link Rot is <a href="/podcast.html">made with love</a> | Licensed under CC-BY</p>
+</div>    
+
+</footer>
+
+    </div>
+
+</body>
+
+</html>
