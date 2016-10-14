@@ -14,7 +14,7 @@ layout: default
                 <h2><a class="post-link" href="{{ first_post.url | prepend: site.baseurl }}">{{ first_post.title }}</a></h2>
                 
                 <p class="meta">{{ first_post.date | date: "%b %-d, %Y" }}</p>
-                <p>{{ first_post.excerpt }} </p> 
+                <p>{{ first_post.summary }} </p> 
             </div>
             <div class="four columns center-content">
                 <a href="{{ first_post.file }}" class="button button-primary" download="{{ first_post.title }}">Download Now</a>    
@@ -28,12 +28,11 @@ layout: default
           <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
         </h2>
         <p class="meta">{{ post.date | date: "%b %-d, %Y" }}</p>
-        <p>{{ post.excerpt }} </p>
+        <p>{{ post.summary }} </p>
         </div>
     {% endfor %}
     
 </div>
 
 <div class="container center-content extra-padding">
-<a href="podcast.xml" class="button button-secondary six columns">Subscribe Now</a>
 </div>

@@ -31,8 +31,8 @@ layout: post
 title: "Title Goes Here"
 date: Publishing date and time
 file: link to file in S3
-excerpt: "Quick exerpt of episode"
-summary: "Longer information"
+summary: "Quick exerpt of episode"
+description: "Longer information"
 duration: "how long in minutes and seconds" 
 length: "in seconds"
 explicit: "do we swear" 
