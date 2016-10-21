@@ -30,4 +30,4 @@ include: ['_pages']
 markdown: kramdown
 
 #Exclude local build settings
-exclude: ['README.markdown', 'Gemfile.lock', 'Gemfile']
+exclude: ['readme.md', 'Gemfile.lock', 'Gemfile']
