@@ -26,6 +26,22 @@
 		
 
         <item>
+            <title>Can someone explain drones to me?</title>
+            <itunes:author>Tim Klapdor, Adam Webster &amp; Ben Atkinson</itunes:author>
+            <itunes:subtitle>Link Rot: Can someone explain drones to me?</itunes:subtitle>
+            <itunes:summary>Episode 6 - We talk drones and ask are they toys or something more sinister?</itunes:summary>
+            <itunes:image href="http://linkrot.net/images/itunes.png" />
+            <enclosure url="http://link-rot.s3.amazonaws.com/Episode-6.mp3" length="43597097 " type="audio/mp3"/>
+            <guid isPermaLink="true">http://linkrot.net/2016/episode-6.html</guid>
+            <pubDate>Fri, 21 Oct 2016 23:20:00 +1100</pubDate>
+            <itunes:duration>30:13</itunes:duration>
+            <itunes:explicit>yes</itunes:explicit>
+            <description>Episode 6 - We talk drones and ask are they toys or something more sinister? Drones seem to be the big thing at the moment but with a battery life of about 20 minutes usage is pretty short. So why are they touted as the next big thing? Show Notes Available at http://linkrot.net/2016/episode-6.html.</description>
+            <itunes:keywords>drones, privacy, selfie, culture </itunes:keywords>
+            <itunes:block>no</itunes:block>
+		</item>
+
+        <item>
             <title>Learning for Free</title>
             <itunes:author>Tim Klapdor, Adam Webster &amp; Ben Atkinson</itunes:author>
             <itunes:subtitle>Link Rot: Learning for Free</itunes:subtitle>
@@ -52,7 +68,7 @@
             <pubDate>Tue, 04 Oct 2016 15:40:00 +1100</pubDate>
             <itunes:duration>34:37</itunes:duration>
             <itunes:explicit>yes</itunes:explicit>
-            <description>Episode 4 - We discuss what does digital technology hide? Digital technology represents an abstraction from the real world. It technical and programatic nature allow it to hide and conceal what&#39;s really happening in our world.  Show Notes Available at http://linkrot.net/2016/episode-4.html.</description>
+            <description>Episode 4 - We discuss what does digital technology hide? Digital technology represents an abstraction from the real world. It technical and programatic nature allow it to hide and conceal what's really happening in our world.  Show Notes Available at http://linkrot.net/2016/episode-4.html.</description>
             <itunes:keywords>technology, VR, refugees, cloud, labour, uber, facebook, </itunes:keywords>
             <itunes:block>no</itunes:block>
 		</item>

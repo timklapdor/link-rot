@@ -11,7 +11,7 @@ nav ul {
 
 nav li {
   flex-grow: 1;
-  min-width: 50%;
+  min-width: 33%;
   margin: 0px 0px;
   border-right: 1px solid rgba(255, 255, 255, 0.5);
   box-sizing: border-box;
@@ -36,11 +36,10 @@ nav a:hover {
   border-bottom: 6px solid $drop-shadow;
 }
 
-/* Larger than phablet (also point when grid becomes active) */
-@media (#{$bp-larger-than-phablet}) {
+@media (#{$bp-larger-than-tablet}) {
   nav li {
     flex-grow: 1;
-    min-width: 25%; }
+    min-width: 33%; }
 
   nav a {
     padding: 0.8em 0px; } }
