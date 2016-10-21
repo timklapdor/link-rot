@@ -11,7 +11,7 @@ nav ul {
 
 nav li {
   flex-grow: 1;
-  min-width: 33%;
+  min-width: 30%;
   margin: 0px 0px;
   border-right: 1px solid rgba(255, 255, 255, 0.5);
   box-sizing: border-box;
@@ -39,7 +39,7 @@ nav a:hover {
 @media (#{$bp-larger-than-tablet}) {
   nav li {
     flex-grow: 1;
-    min-width: 33%; }
+    min-width: 30%; }
 
   nav a {
     padding: 0.8em 0px; } }
