@@ -26,6 +26,22 @@
 		
 
         <item>
+            <title>Is hardware the new software?</title>
+            <itunes:author>Tim Klapdor, Adam Webster &amp; Ben Atkinson</itunes:author>
+            <itunes:subtitle>Link Rot: Is hardware the new software?</itunes:subtitle>
+            <itunes:summary>Episode 7 - We talk about the current wave of new hardware bought about by Google, Microsoft and Apple.</itunes:summary>
+            <itunes:image href="http://linkrot.net/images/itunes.png" />
+            <enclosure url="http://link-rot.s3.amazonaws.com/Episode-7.mp3" length="74352483" type="audio/mp3"/>
+            <guid isPermaLink="true">http://linkrot.net/2016/episode-7.html</guid>
+            <pubDate>Mon, 07 Nov 2016 20:30:00 +1100</pubDate>
+            <itunes:duration>51:35</itunes:duration>
+            <itunes:explicit>no</itunes:explicit>
+            <description>Episode 7 - We talk about the current wave of new hardware bought about by Google, Microsoft and Apple. Microsoft and Google have famously been all about software, but that's changed significantly over the last few years. Microsoft and now Google have graduated to making their own hardware. Both companies traditionally licensed (or gave away) their software to run on devices made by other manufacturers. So why the move from software to hardware? BONUS: We geek out for another 20 minutes at the end of the episode discussing the new hardware releases. It's a bit of a response to some of the discussion we had back in episode 1. Show Notes Available at http://linkrot.net/2016/episode-7.html.</description>
+            <itunes:keywords>hardware, apple, google, microsoft,</itunes:keywords>
+            <itunes:block>no</itunes:block>
+		</item>
+
+        <item>
             <title>Can someone explain drones to me?</title>
             <itunes:author>Tim Klapdor, Adam Webster &amp; Ben Atkinson</itunes:author>
             <itunes:subtitle>Link Rot: Can someone explain drones to me?</itunes:subtitle>
